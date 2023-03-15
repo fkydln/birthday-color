@@ -1,8 +1,53 @@
 body{
-    background-color: aqua;
+    background-color: rgb(170, 117, 57)
 }
 #color-output{
     height: 50px;
     width: 50px;
-    background-color: black;
+    background-color: gray;
+    border-radius: 15px;
 }
+.container{
+    background-color: rgb(39, 85, 108);
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 15px;
+    padding: 3% 15%;
+    
+    
+}
+table, tr{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+tr{
+    /* margin-bottom: 250px; */
+    /* padding: 2%; */
+    height: 40px;
+}
+td{
+    width: 140px;
+}
+
+  .colorful-box {
+    background-color: #ff0000; /* initial background color */
+    animation: color-change 10s ease-in-out forwards; /* name of animation, duration, timing function, and fill mode */}
+
+    @keyframes color-change {
+        0% {
+          background-color: #ff0000; /* initial background color */
+        }
+        33% {
+          background-color: #00ff00; /* intermediate background color */
+        }
+        66%{
+            background-color: #0000ff;  
+        }
+        100% {
+          background-color: #ffffff; /* final background color */
+        }
+      }  
+
+
+

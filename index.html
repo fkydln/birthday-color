@@ -14,40 +14,43 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Birthday Color Generator</h1>
-    <p>
-      This app generates a HEX color code based color based on your birthday, it
-      uses two digits for the day, month and year then generates the color for
-      you. Hope you enjoy!
-    </p>
-    <form id="birthdateForm" onsubmit="return false">
-      <table>
-        <tr>
-          <td><label for="birthdate">Enter Birthday</label></td>
-          <td>
-            <input
-              type="date"
-              id="birthdate"
-              min="2000-01-01"
-              max="2023-12-31"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>Your color:</td>
-          <td id="color-output"></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-            <input
-              type="submit"
-              value="Generate your color"
-              onclick="gatherBirthdate()"
-            />
-          </td>
-        </tr>
-      </table>
-    </form>
+    <div class="container">
+      <h1>Birthday Color Generator</h1>
+      <p>
+        This app generates a HEX color code based color based on your birthday,
+        it uses two digits for the day, month and year then generates the color
+        for you. Hope you enjoy!
+      </p>
+      <form id="birthdateForm" onsubmit="return false">
+        <table>
+          <tr>
+            <td><label for="birthdate">Enter Birthday</label></td>
+            <td>
+              <input
+                type="date"
+                id="birthdate"
+                min="1924-01-01"
+                max="2023-12-31"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Your color:</td>
+            <td id="color-output"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input
+                class="colorful-box"
+                type="submit"
+                value="Generate your color"
+                onclick="gatherBirthdate()"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
   </body>
 </html>
