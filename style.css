@@ -1,5 +1,8 @@
 body{
-    background-color: rgb(170, 117, 57)
+    background-color: rgb(170, 117, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #color-output{
     height: 50px;
@@ -9,11 +12,12 @@ body{
 }
 .container{
     background-color: rgb(39, 85, 108);
-    margin-top: 8%;
+
     margin-left: 8%;
     margin-right: 8%;
     border-radius: 15px;
-    padding: 3% 15%;
+    padding: 3% 10%;
+    height: 50%;
     
     
 }
@@ -32,6 +36,8 @@ td{
 
   .colorful-box {
     background-color: #ff0000; /* initial background color */
+    color: black;
+    font-weight: 600;
     animation: color-change 10s ease-in-out forwards; /* name of animation, duration, timing function, and fill mode */}
 
     @keyframes color-change {
