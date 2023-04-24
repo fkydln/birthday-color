@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(170, 117, 57);
+    background-color: rgb(47, 79, 127);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@ body{
     border-radius: 15px;
 }
 .container{
-    background-color: rgb(39, 85, 108);
+    background-color: rgb(133, 168, 214);
 
     margin-left: 8%;
     margin-right: 8%;
