@@ -5,6 +5,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.6875rem;
+}
+
+
 #color-output{
     height: 50px;
     width: 50px;
@@ -12,8 +18,7 @@ body{
     border-radius: 15px;
 }
 .container{
-    background-color: rgb(133, 168, 214);
-
+  /* background-color: #ffffff10; */
     margin-left: 8%;
     margin-right: 8%;
     border-radius: 15px;
