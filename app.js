@@ -1,4 +1,5 @@
 function gatherBirthdate() {
+  console.log("triggered");
   let birthdate;
   birthdate = document.forms["birthdateForm"].elements["birthdate"].value;
 
