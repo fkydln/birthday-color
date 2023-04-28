@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(47, 79, 127);
+    background: rgb(233,159,238);
+    background: linear-gradient(90deg, rgba(233,159,238,1) 0%, rgba(223,222,128,1) 52%, rgba(53,185,219,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
