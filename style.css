@@ -21,7 +21,8 @@ h1 {
 
 }
 table{
-  
+  display: flex;
+  justify-content: center;
   margin: auto;
 }
 
