@@ -42,8 +42,9 @@ table{
 }
 table, tr{
     background-color: antiquewhite;
-    
-    
+    padding: 2%;
+    margin: 1%;
+    border-radius: 20px;
 }
 tr{
     /* margin-bottom: 250px; */
@@ -52,6 +53,16 @@ tr{
 }
 td{
     width: 140px;
+}
+footer {
+  display: flex;
+  margin-top: 3%;
+  color: #000;
+  justify-content: center;
+}
+footer a{
+  color: #000;
+  text-decoration: none;
 }
 
   .colorful-box {
