@@ -4,10 +4,17 @@
     "short_name": "Birthday Color",
     "name": "Birthday Color Generator",
     "theme_color": "rgb(47, 79, 127)",
+    "background_color": "#FFFFFF",
     "icons": [
       {
         "src": "./assets/app-icon.png",
         "sizes": "317x317",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "./assets/diamond.png",
+        "sizes": "512x512",
         "type": "image/png",
         "purpose": "any"
       }
