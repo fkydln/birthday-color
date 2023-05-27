@@ -65,6 +65,10 @@ footer a{
   color: #000;
   text-decoration: none;
 }
+footer p{
+  text-align: center;
+}
+
 
   .colorful-box {
     background-color: #ff0000; /* initial background color */
